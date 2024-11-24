@@ -1,0 +1,29 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f1f1f1;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.imglogomenu {
+    width: 180px;
+    height: auto;
+    margin-top: 20px; /* Espaço entre a logo e o topo da tela */
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.imglogomenu:hover {
+    transform: scale(1.2) rotate(5deg);
+}
