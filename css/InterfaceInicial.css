@@ -1,0 +1,107 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+  
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none; 
+    position: relative;
+}
+
+.Logo:hover {
+    cursor: pointer;
+}
+
+.menu-horizontal {
+    display: flex;
+    padding-right: 110px;
+    align-items: center;   
+}
+
+.menu-horizontal .IconePorta {
+    position: absolute;
+    width: 24px;
+    margin-left: 310px;
+    margin-top: -12px;
+}
+
+.menu-horizontal .IconePorta:hover {
+    cursor: pointer;
+   
+}
+
+.menu-horizontal li {
+    padding-left: 80px;
+
+}
+
+li a:hover{
+    cursor: pointer;
+    color: #1452A5;
+   
+}
+
+.MenuEntrar {
+    color: #1452A5;
+    position: relative;
+}
+
+nav .PaginaInicial::after, .QuemSomos::after, .Cadastro::after, .MenuEntrar::after{
+    content: " ";
+    width: 0px;
+    height: 2px;
+    background-color: #1452A5;
+    position: absolute;
+    top: 22px;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+
+nav .PaginaInicial:hover::after, .QuemSomos:hover::after, .Cadastro:hover::after{
+    width: 100%;
+}
+
+.MenuEntrar:hover::after {
+    width: 78px;
+}
+
+.inicio-principal {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.inicio-principal h1 {
+    margin-left: 150px;
+}
+
+
+
+.inicio-principal img {
+    margin-top: 30px;
+}
+
+.inicio-principal .blue {
+    color: #1452A5;
+}
