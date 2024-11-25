@@ -9,21 +9,102 @@ body {
     font-family: "Inter", sans-serif;
     background-color: #f1f1f1;
     color: #000;
+}
+
+
+.imgLogoMenu {
     display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: flex-start;
-    min-height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 48px;
 }
 
-.imglogomenu {
-    width: 180px;
-    height: auto;
-    margin-top: 20px; /* Espaço entre a logo e o topo da tela */
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
+.container {
+    display: flex;
 }
 
-.imglogomenu:hover {
-    transform: scale(1.2) rotate(5deg);
+.text {
+    margin-right: 181px;
 }
+
+.text h1 {
+    margin-top: 144px;
+    margin-left: 48px;
+}
+
+.sobre {
+    display: block;
+    margin-left: 48px;
+    margin-top: 26px;
+    color: #9E9E9E;
+    width: 480px;
+    height: 266px;
+    font-size: 24px;
+}
+
+.imgMulher {
+    margin-top: 144px;
+}
+
+.MissaoVisaoValores {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 800px;
+    margin-left: 80px;
+}
+
+.MissaoVisaoValores p {
+    margin-top: 8px;
+    font-size: 24px;
+    color: #9E9E9E;
+}
+
+.MissaoVisaoValores .Missao img {
+    margin-left: 44px
+}
+
+.MissaoVisaoValores .Missao h1 {
+    margin-left: 52px;
+    
+}
+
+.MissaoVisaoValores .Visao img {
+    margin-left: 84px
+}
+
+.MissaoVisaoValores .Visao h1 {
+    margin-left: 102px;
+}
+
+.MissaoVisaoValores .Valores img {
+    margin-left: 58px;
+}
+
+.MissaoVisaoValores .Valores h1 {
+    margin-left: 68px;
+}
+
+.Equipe {
+    
+    margin-top: 800px;
+    text-align: center;
+}
+
+.Membros {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.MembrosDois {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+
+
+
