@@ -362,5 +362,47 @@ button:hover {
     position: absolute;
 }
 
+.bordainstaleoapp {
+    border: 3px solid #0f5cc2;
+    width: 1440px;
+    height: 654px;
+    background-color: #0f5cc2 ;
+    margin-top: 3688px;
+}
+
+.bordainstaleoapp h1 {
+    font-weight: 600;
+    font-size: 60px;
+    margin-left: 48px;
+    margin-top: 82px;
+}
+
+.bordainstaleoapp h2 {
+    color: #9E9E9E;
+    margin-left: 48px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.imgplaystore {
+    margin-top: 53px;
+    width: 241px;
+    height: auto;
+    margin-left: 48px;
+    cursor: pointer;
+}
+
+.imgapplestore {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 241px;
+    height: auto;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+
+
+
 
 
