@@ -286,8 +286,10 @@ button:hover {
     
 }
 .terceirapartesite h1 {
+    display: inline-block;
     margin-left: 48px;
     font-weight: bold;
     font-size: 60px;
-    margin-top: 416px;
+    margin-top: 1000px;
 }
+

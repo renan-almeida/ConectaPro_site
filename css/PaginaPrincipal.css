@@ -15,6 +15,13 @@ nav {
     position: relative;
     margin-top: 20px;
 }
+ 
+h1 {
+    cursor: context-menu;
+}
+h2 {
+    cursor: context-menu;
+}
 
 .Setorneprofissional, .comofunciona, .entrar, .quemsomos {
     font-size: 20px;
@@ -364,10 +371,11 @@ button:hover {
 
 .bordainstaleoapp {
     border: 3px solid #0f5cc2;
-    width: 1440px;
+    width: 100%;
     height: 654px;
     background-color: #0f5cc2 ;
     margin-top: 3688px;
+    display: inline-block;
 }
 
 .bordainstaleoapp h1 {
@@ -375,6 +383,7 @@ button:hover {
     font-size: 60px;
     margin-left: 48px;
     margin-top: 82px;
+    display: flex;
 }
 
 .bordainstaleoapp h2 {
@@ -382,9 +391,11 @@ button:hover {
     margin-left: 48px;
     font-weight: 400;
     font-size: 30px;
+    display: flex;
 }
 
 .imgplaystore {
+    display: flex;
     margin-top: 53px;
     width: 241px;
     height: auto;
@@ -393,16 +404,103 @@ button:hover {
 }
 
 .imgapplestore {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    display: flex;
+    margin-top: -74px;
+    
     width: 241px;
     height: auto;
-    margin-left: 40px;
+    margin-left: 307px;
     cursor: pointer;
+}
+.imgcelular {
+    position: absolute;
+    margin-top: -390px;
+    display: flex;
+    margin-left: 900px;
 }
 
 
 
+.titulo4 h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 448px;
+}
 
+.titulo4 h2 {
+    color: #9E9E9E;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 24px;
+    cursor: context-menu;
+    text-align: center;
+}
 
+.titulo4 .imgescolharapida {
+    position: absolute;
+    align-items: center;
+    margin-left: 174px;
+    margin-top: 308px;
+    justify-content: space-between;
+    
+}
+
+.titulo4 .imgcalculadora {
+    position: absolute;
+    margin-top: 308px;
+    margin-left: 664px;
+}
+
+.titulo4 .imgcalendario {
+    margin-top: 308px;
+    margin-left: 1132px;
+    width: 140px;
+    height: auto;
+}
+
+.txttitulo4 h1 {
+    font-size: 30px;
+    font-weight:bold;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img1 {
+    margin-top: 8px;
+    margin-left: 70px;
+}
+
+.img2 {
+    margin-top: -36px;
+    margin-left: 516px;
+}
+
+.img3 {
+    position: absolute;
+    margin-top: -36px;
+    margin-left: 1090px;
+}
+
+.descimg1 {
+    margin-top: 8px;
+    margin-left: 84px;
+    font-weight: 500;
+    color: #9E9E9E;
+}
+
+.descimg2 {
+    margin-top: -36px;
+    margin-left: 553px;
+    font-weight: 500;
+    color: #9E9E9E;
+}
+
+.descimg3 {
+    margin-top: -85px;
+    margin-left: 1053px;
+    font-weight: 500;
+    color: #9E9E9E;
+    cursor: context-menu;
+}
 
