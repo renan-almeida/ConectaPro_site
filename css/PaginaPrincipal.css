@@ -504,3 +504,96 @@ button:hover {
     cursor: context-menu;
 }
 
+.bordapesquisas {
+    border: 3px solid #0f5cc2;
+    width: 100%;
+    height: 654px;
+    background-color: #0f5cc2 ;
+    margin-top: 448px;
+    display: inline-block;
+}
+
+.bordapesquisas h1 {
+    font-weight: 600;
+    font-size: 60px;
+    margin-left: 48px;
+    margin-top: 82px;
+    display: flex;
+}
+
+.bordapesquisas h2 { 
+    color: #9E9E9E;
+    margin-left: 48px;
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.imgqualitativa {
+    position: absolute;
+    margin-top: -130px;
+    display: flex;
+    margin-left: 678px;
+}
+
+.imgquantitativa {
+    position: absolute;
+    margin-top: -130px;
+    display: flex;
+    margin-left: 1054px;
+}
+
+.buttonqualitativa {
+    position: absolute;
+    width: 225px;
+    height: 74px;
+    margin-left: 676px;
+    background-color: #151515;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 130px;
+    cursor: pointer;
+}
+
+.buttonqualitativa:hover {
+    background-color: #151515;
+}
+
+.buttonquantitativa {
+    position: absolute;
+    width: 235px;
+    height: 74px;
+    margin-left: 1054px;
+    background-color: #151515;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 130px;
+    cursor: pointer;
+}
+
+.buttonqualitativa:hover {
+    background-color: #151515;
+}
+
+.titulo5 h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 448px;
+}
+
+.blue {
+    position: absolute;
+    color: #0f5cc2;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 448px;
+}
