@@ -11,6 +11,11 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 nav {
     position: relative;
     margin-top: 20px;
@@ -43,11 +48,11 @@ h2 {
 }
 
 .entrar {
-    margin-left: 1008px;
+    margin-left: 1148px;
 }
 
 .quemsomos {
-    margin-left: 1148px;
+    margin-left: 968px;
 }
 
 .Setorneprofissional:hover, .comofunciona:hover, .entrar:hover, .quemsomos:hover {
@@ -65,7 +70,7 @@ ul {
     top: 0;
     left: 0;
     right: 0;
-    margin: 0;
+    margin-left: 200px;
 }
 
 a {
@@ -79,7 +84,7 @@ a {
 nav ul li::after {
     content: "";
     width: 0%;
-    height: 4px;
+    height: 2px;
     background-color: #0f5cc2;
     position: absolute;
     bottom: 0;
@@ -97,17 +102,12 @@ nav ul li:hover::after {
 }
 
 .iconeentrar {
-    margin-left: 968px;
+    margin-left: 1208px;
     bottom: 105px;
     cursor: pointer;
     transition: transform 2.0s;
     position: relative;
 }
-
-.iconeentrar:hover {
-    transform: translateY(-10px);
-}
-
 .imglogomenu {
     width: 180px;
     height: 95px;
@@ -406,10 +406,9 @@ button:hover {
 .imgapplestore {
     display: flex;
     margin-top: -74px;
-    
     width: 241px;
     height: auto;
-    margin-left: 307px;
+    margin-left: 40px;
     cursor: pointer;
 }
 .imgcelular {
@@ -740,4 +739,9 @@ button:hover {
     width: 212px;
     height: 88px;
     border-radius: 5px;
+}
+
+.txtbotoes {
+    -webkit-text-fill-color: white;
+    font-weight: 500;
 }
