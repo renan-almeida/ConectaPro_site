@@ -37,10 +37,8 @@ body {
     text-align: center;
     flex-direction: column;
     margin-left: 34%;
-    gap: 100px;
-    margin-top: 100px;
-
-
+    gap: 36px;
+    margin-top: 4%;
 }
 
 .Email , .Senha {
@@ -64,7 +62,7 @@ body {
 .SemConta {
     font-size: 20px;
     color: #2886ca;
-    margin-left: 1100px;
+    margin-left: 57%;
     text-decoration: none;
 }
 
@@ -80,7 +78,7 @@ body {
     border-radius: 20px;
     font-size: 36px;
     font-weight:700;
-    margin-top: 72px;
+    margin-top: 20%;
     color: white;
     background-color: #0f5cc2;
     border: 1px solid black;
@@ -92,3 +90,54 @@ body {
     text-decoration: none;
     color: white;
 }
+
+
+/* ANIMAÇÃO DOS ITENS DA PAGINA APARECEREM 
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(50px);  /* Começa 50px abaixo 
+        opacity: 0;  /* Começa invisível 
+    }
+    100% {
+        transform: translateY(0);  /* Termina na posição normal
+        opacity: 1;  /* Fica visível 
+    }
+}
+
+/* Aplicando a animação a todos os elementos da página 
+* {
+    animation: slideUp 1s ease-out forwards; /* Aplica a animação
+    opacity: 0;  /* Garante que os elementos comecem invisíveis 
+}
+
+body {
+    animation-delay: 0.2s; /* Atraso para o corpo da página
+}
+
+.imgLogoMenu {
+    animation-delay: 0.4s; /* Atraso para o logo 
+}
+
+.TextoPrincipal {
+    animation-delay: 0.6s; /* Atraso para o texto principal 
+}
+
+.Input {
+    animation-delay: 0.8s; /* Atraso para o formulário 
+}
+
+.EntrarButton {
+    animation-delay: 1s; /* Atraso para o botão 
+}
+
+.SemConta {
+    animation-delay: 1.2s; /* Atraso para o link 
+}
+
+/* Garantir que os itens de entrada fiquem visíveis após a animação 
+.Input, .Email, .Senha, .EntrarButton, .SemConta {
+    animation: slideUp 1s ease-out forwards;
+}
+
+*/
