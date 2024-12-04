@@ -31,16 +31,64 @@ body {
     color: #0f5cc2;
 }
 
+
 .Input {
     display: flex;
     text-align: center;
     flex-direction: column;
-    margin-left: 40%;
+    margin-left: 34%;
     gap: 100px;
     margin-top: 100px;
+
+
 }
 
 .Email , .Senha {
     background-color: #f1f1f1;
     width: 400px;
+    border-radius: 10px;
+    height: 69px;
+    width: 607px;
+    font-size: 24px;
+    padding-left: 16px;
+}
+
+.Senha {
+    margin-bottom: 10px;
+}
+
+.Email::placeholder, .Senha::placeholder {
+    opacity: 20%;
+}
+
+.SemConta {
+    font-size: 20px;
+    color: #2886ca;
+    margin-left: 1100px;
+    text-decoration: none;
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.EntrarButton {
+    height: 69px;
+    width: 303px;
+    border-radius: 20px;
+    font-size: 36px;
+    font-weight:700;
+    margin-top: 72px;
+    color: white;
+    background-color: #0f5cc2;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.EntrarButton  a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
 }
