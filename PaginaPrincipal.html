@@ -3,13 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/PaginaPrincipal.css">
-        <script src="js/PaginaPrincipal.js"></script>
+        <link rel="stylesheet" href="css/InterfaceLogin.css">
+        <script src="js/InterfaceLogin.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
+<<<<<<< HEAD
         <img class="imglogomenu" src="img/ConectaPro - Logo-Photoroom.png" alt="" width="180"  >
         <nav>
             <ul>
@@ -188,6 +189,47 @@
                                 <img src="img/download app store.svg" alt="" class="imgappstorefimsite">
                              </a>
     
+=======
+>>>>>>> 32821e954c9a511a73f0c37518f837dd76ffa5dd
         
+        <div class="imgLogoMenu">
+            <img src="img/ConectaPro - Logo-Photoroom.png" alt="" width="280">
+        </div>
+        
+        <div class="TextoPrincipal">
+            <h1>Bem-vindo a</h1>
+            <h1 class="ConectaPro">ConectaPro!</h1>
+        </div>
+
+        <div class="Input">
+            <input type="text" class="Email" placeholder="Digite seu Email">
+            <input type="text" class="Senha" placeholder="Digite sua Senha">
+        </div>
+
+        <a class="SemConta" href="#" id="showModal">Não tenho conta</a>
+
+        <div class="Button">
+            <a href="">
+                <button class="EntrarButton">Entrar</button>
+            </a>
+        </div>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="closeModal">&times;</span>
+                <div class="modal-header">
+                    <h2>Escolha o tipo de conta</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Qual tipo de conta você deseja criar?</p>
+                </div>
+                <div class="modal-footer">
+                    <button id="clienteBtn">Cliente</button>
+                    <button id="prestadorBtn">Prestador de Serviço</button>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>

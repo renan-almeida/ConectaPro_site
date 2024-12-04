@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/InterfaceLogin.css">
-        <script src="js/InterfaceLogin.js"></script>
+        <script src="js/InterfaceLogin.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
         </div>
         
         <div class="TextoPrincipal">
-            <h1>Bem vindo a</h1>
+            <h1>Bem-vindo a</h1>
             <h1 class="ConectaPro">ConectaPro!</h1>
         </div>
 
@@ -25,15 +25,36 @@
             <input type="text" class="Senha" placeholder="Digite sua Senha">
         </div>
 
-        <a class="SemConta" href="">Não tenho conta</a>
+        <a class="SemConta" href="#" id="showModal">Não tenho conta</a>
 
         <div class="Button">
             <a href="">
                 <button class="EntrarButton">Entrar</button>
             </a>
         </div>
-        
+
+      
+     <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <div class="modal-header">
+            <h2>Escolha o tipo de conta</h2>
+        </div>
+        <div class="modal-body">
+            <p>Qual tipo de conta você deseja criar?</p>
+            
+            <div class="modal-images">
+                <img src="img/setornarcliente.png" alt="Cliente" class="modal-image">
+                <img src="img/setornarprestador.png" alt="Prestador de Serviço" class="modal-image">
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button id="clienteBtn">Cliente</button>
+            <button id="prestadorBtn">Prestador de Serviço</button>
+        </div>
+    </div>
+</div>
+
 
     </body>
-        
 </html>
