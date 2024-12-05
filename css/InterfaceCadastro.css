@@ -9,6 +9,7 @@ body {
     font-family: "Inter", sans-serif;
     background-color: #f1f1f1;
     color: #000;
+    animation: slideIn 1s ease-out forwards;
 }
 
 
@@ -81,4 +82,15 @@ body {
     display: inline-block;
     text-decoration: none;
     color: white;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

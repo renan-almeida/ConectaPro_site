@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f1f1f1;
+    color: #000;
+    animation: slideIn 1s ease-out forwards;
+}
+
+.imglogo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 48px;
+}
+
+.cabecario {
+    display: flex;
+}
+
+.cabecario h1 {
+    display: flex;
+    font-weight: 500;
+    font-size: 40px;
+    margin-left: 27%;
+}
+
+.titulo {
+    margin-top: 82px;
+    font-size: 60px;
+    margin-left: 48px;
+    font-weight: 600;
+}
+
+.imgplaystore {
+    margin-left: 3%;
+    margin-top: 92px;
+}
+
+.imgappstore {
+    margin-left: 40px;
+    margin-bottom: 12px;
+    height: 62px;
+}
+
+.imgmoca {
+    display: inline-block;
+    margin-left: 676px;
+    margin-top: -1000px;
+}
+
+.imgcelular {
+    position: absolute;
+   margin-top: -19%;
+   height: auto;
+   margin-left: -360px;
+    
+}
+
+.voltar img {
+    margin-top: 20px;
+    display:inline-block;
+    width: 30px;
+    height: auto;
+    margin-left: 24px;
+}
+
+.voltar h3 {
+    margin-top: -27px;
+    margin-left: 60px;
+    position: absolute;
+    color: #0f5cc2;
+    font-size: 15px;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+

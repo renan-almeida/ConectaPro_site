@@ -207,8 +207,8 @@ nav ul li:hover::after {
     background-color: #0f5cc2;
     color: white;
     border: 3px solid #0f5cc2;
-    top: 824px;
-    margin-left: 96px;
+    top: 1400px;
+    margin-left: 48px;
     border-radius: 20px;
     width: 377px;
     height: 76px;
@@ -350,8 +350,8 @@ button:hover {
     background-color: #0f5cc2;
     color: white;
     border: 3px solid #0f5cc2;
-    top: 2580px;
-    margin-left: 96px;
+    top: 3150px;
+    margin-left: 48px;
     border-radius: 20px;
     width: 377px;
     height: 76px;
@@ -564,7 +564,7 @@ button:hover {
 }
 
 .buttonqualitativa:hover {
-    background-color: #151515;
+    background-color: black;
 }
 
 .buttonquantitativa {
@@ -582,8 +582,8 @@ button:hover {
     cursor: pointer;
 }
 
-.buttonqualitativa,  .buttonquantitativa:hover {
-    background-color: #151515;
+.buttonquantitativa:hover {
+    background-color: black;
 }
 .titulo5 h1 {
     font-size: 40px;
