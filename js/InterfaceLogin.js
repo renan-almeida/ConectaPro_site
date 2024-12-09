@@ -1,33 +1,35 @@
-// Seleção dos elementos
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("showModal");
-var span = document.getElementById("closeModal");
+document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('myModal');
+    const showModalButton = document.getElementById('showModal');
+    const closeModalButton = document.getElementById('closeModal');
+    const clienteBtn = document.getElementById('clienteBtn');
+    const prestadorBtn = document.getElementById('prestadorBtn');
 
-// Quando o usuário clicar em "Não tenho conta", abre o modal
-btn.onclick = function(event) {
-    event.preventDefault(); // Impede que o link faça o recarregamento da página
-    modal.style.display = "block"; // Exibe o modal
-}
+    // Exibe o modal ao clicar no link
+    showModalButton.addEventListener('click', (event) => {
+        event.preventDefault();
+        modal.style.display = 'block';
+    });
 
-// Quando o usuário clicar no "x", fecha o modal
-span.onclick = function() {
-    modal.style.display = "none"; // Fecha o modal
-}
+    // Fecha o modal ao clicar no botão "X"
+    closeModalButton.addEventListener('click', () => {
+        modal.style.display = 'none';
+    });
 
-// Quando o usuário clicar fora do modal, fecha o modal
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none"; // Fecha o modal
-    }
-}
+    // Fecha o modal ao clicar fora do conteúdo
+    window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
 
-// Ações para os botões dentro do modal
-document.getElementById("clienteBtn").onclick = function() {
-    alert("Você escolheu criar uma conta de Cliente.");
-    modal.style.display = "none"; // Fecha o modal
-};
+    // Redireciona para a tela de cadastro de cliente
+    clienteBtn.addEventListener('click', () => {
+        window.location.href = 'InterfaceCadastroprestador.html'; // Substitua pelo caminho correto
+    });
 
-document.getElementById("prestadorBtn").onclick = function() {
-    alert("Você escolheu criar uma conta de Prestador de Serviço.");
-    modal.style.display = "none"; // Fecha o modal
-};
+    // Redireciona para a tela de cadastro de prestador
+    prestadorBtn.addEventListener('click', () => {
+        window.location.href = 'InterfaceCadastroCliente.html'; // Substitua pelo caminho correto
+    });
+});
