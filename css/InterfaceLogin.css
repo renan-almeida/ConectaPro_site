@@ -36,7 +36,7 @@ body {
     display: flex;
     text-align: center;
     flex-direction: column;
-    margin-left: 34%;
+    margin-left: 27%;
     gap: 36px;
     margin-top: 4%;
 }
@@ -49,6 +49,7 @@ body {
     width: 607px;
     font-size: 24px;
     padding-left: 16px;
+    justify-content: center;
 }
 
 .Senha {
@@ -62,7 +63,7 @@ body {
 .SemConta {
     font-size: 20px;
     color: #2886ca;
-    margin-left: 57%;
+    margin-left: 60%;
     text-decoration: none;
 }
 
@@ -83,6 +84,10 @@ body {
     background-color: #0f5cc2;
     border: 1px solid black;
     cursor: pointer;
+}
+
+.EntrarButton:hover {
+    background-color: #1452A5;
 }
 
 .EntrarButton  a {

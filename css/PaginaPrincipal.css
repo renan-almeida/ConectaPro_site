@@ -207,7 +207,7 @@ nav ul li:hover::after {
     background-color: #0f5cc2;
     color: white;
     border: 3px solid #0f5cc2;
-    top: 1400px;
+    top: 850px;
     margin-left: 48px;
     border-radius: 20px;
     width: 377px;
@@ -350,7 +350,7 @@ button:hover {
     background-color: #0f5cc2;
     color: white;
     border: 3px solid #0f5cc2;
-    top: 3150px;
+    top: 2600px;
     margin-left: 48px;
     border-radius: 20px;
     width: 377px;

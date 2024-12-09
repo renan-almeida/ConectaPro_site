@@ -25,11 +25,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Redireciona para a tela de cadastro de cliente
     clienteBtn.addEventListener('click', () => {
-        window.location.href = 'InterfaceCadastroprestador.html'; // Substitua pelo caminho correto
+        window.location.href = 'InterfaceCadastrocliente.html'; 
     });
 
     // Redireciona para a tela de cadastro de prestador
     prestadorBtn.addEventListener('click', () => {
-        window.location.href = 'InterfaceCadastroCliente.html'; // Substitua pelo caminho correto
+        window.location.href = 'InterfaceCadastroprestador.html'; 
     });
 });

@@ -153,3 +153,20 @@ body {
 .formulario form button:hover {
     background-color: #084a97;
 }
+
+.voltar img {
+    margin-top: 20px;
+    display:inline-block;
+    width: 30px;
+    height: auto;
+    margin-left: 24px;
+}
+
+.voltar h3 {
+    margin-top: -27px;
+    margin-left: 60px;
+    position: absolute;
+    color: #0f5cc2;
+    font-size: 15px;
+}
+
